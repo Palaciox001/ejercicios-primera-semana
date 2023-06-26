@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Es la página que uso para los ejercicios del curso de Full Stack Developer de Develhope"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="/C:\Users\Usuario\OneDrive\Documentos\GitHub"
+    />
+    <meta property="og:url" content="https://www.ejerciciohtmldani.com" />
+    <meta name="author" content="Daniel Palacios Sanz" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <meta name="keywords" content="Mi primer ejercicio de html" />
+    <title>La Primera Página de Dani</title>
+  </head>
+  <body>
+  <h1>Cuestionario</h1>
+  <form action="/action_page.php">
+  <label for="email"> Correo electrónico:</label>
+  <input type="text" id="mail" name="mail" required><br><br>
+  <label for="password">Contraseña:</label>
+  <input type="text" id="password" name="password" required><br><br>
+  <label for="Name">Nombre y Apellidos:</label>
+  <input type="text" id="password" name="password"required><br><br>
+  <label for="date">Fecha de Nacimiento:</label>
+  <input type="date" id="date" name="date" required><br><br>
+  <label for="teléfono">Teléfono:</label>
+  <input type="tel" id= "teléfono" name="teléfono" required><br><br>
+  <label for="Planes">Elige un plan:</label>
+  <select name="Planes" id="Planes" required>
+  <option value="Plan 1"> Plan 1</option>
+  <option value="Plan 2"> Plan 2</option>
+  <option value="Plan 3"> Plan 3</option>
+<input name="Plan Pro" type="checkbox" required> Plan Pro<br><br>
+  <label for="Tarjeta de crédito">Tarjeta de Crédito:</label>
+  <input type="text" id="Tarjeta de Crédito" name="Tarjeta de Crédito"maxlength="25" required><br><br>
+  <label for="CVC">CVC:</label>
+  <input type="text" id="CVC" name="CVC" maxlength="3" required><br><br>
+  <label for="Fecha de caducidad"> Fecha de Caducidad:</label>
+  <input type="date" id="Fecha de Caducidad" name="Fecha de Caducidad"required><br><br>
+  <label for="Dirección">Dirección de envío:</label>
+  <input type="text" id="Dirección" name="Dirección"required><br><br>
+  <input type="submit" value="Enviar">
+</form>

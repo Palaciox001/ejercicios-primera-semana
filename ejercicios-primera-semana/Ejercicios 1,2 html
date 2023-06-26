@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="description" content="Es la página que uso para los ejercicios del curso de Full Stack Developer de Develhope"/>
+<meta property="og:type" content="website" />
+<meta property="og:image" content= "/C:\Users\Usuario\OneDrive\Documentos\GitHub"/>
+<meta property="og:url" content="https://www.ejerciciohtmldani.com" />
+	<meta name="author" content="Daniel Palacios Sanz" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<META NAME="keywords" content="Mi primer ejercicio de html">
+    <title>La Primera Página de Dani</title>
+ 
+</head>
+<body>
+    <Header>
+       <h1> Mi primer ejercicio</h1>
+       <H2> te presento la estructuraz de navegación de este ejercicio</H2>
+    </Header>
+       <nav> 
+            <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            </ul>
+            </div>
+    
+</nav>
+    
+    <section>
+        <tb>
+            <tr>this is the main content of the page</tr>
+            <tr>Inside the body there are some sections <hr></HR><p>This is a quotation:<i>Hello world</i></p></tr>
+            <tr><p>Este es un texto superindice:<sup>TEXT</sup></p><P>Este es un texto subindice<sub>TEXT</sub></P></tr>
+            <tr>Cuarta fila este es un texto en en<strong>negrita</strong></tr>
+        </tb>
+
+    </section>
+    <footer>
+    <h2> este es un h2 </H2>
+    <P> Este es un párrafo </p>
+    </footer>
+  
+</body>
+</html>
